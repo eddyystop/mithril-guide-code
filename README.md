@@ -5,7 +5,7 @@ Working code examples from
 
 ## Installation
 1. Install [Nodejs] (http://http://nodejs.org/). 
-npm will automatically be installed also.
+npm will also be automatically installed.
  
 2. Install the server's dependencies by running ```npm install``` 
 from the repo's directory.
@@ -17,9 +17,19 @@ from the repo's directory.
 ```Express server listening on port 3000 in development mode```
 
 3. Run the sample code by pointing your browser to 
-```localhost:3000/<code sample name..html```
+```localhost:3000/< code sample name >.html```
 
-## UI Components
+## Organization
+```getting-started``` contains the code for 
+```Mithril > Guide > Core Topics > Getting Started```.
+ 
+* You run the code with ```localhost:3000/getting-started.html```.
+* The HTML is in ```/repo/public/getting-started.html```
+* The JS is in ```/repo/public/js/getting-started.js```
+
+
+## Code samples
+
 - [Table - responsive] (#table-responsive) - A responsive table.
 
 
