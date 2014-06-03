@@ -5,7 +5,7 @@ Working code examples from
 
 ## Installation
 
-* Install [Nodejs] (http://http://nodejs.org/). 
+* Install [Nodejs] (http://nodejs.org/). 
 npm will also be automatically installed.
 * Install the server's dependencies by running ```npm install``` 
 from the repo's directory.
@@ -27,17 +27,20 @@ from the repo's directory.
 * The HTML is in ```/repo/public/getting-started.html```
 * The JS is in ```/repo/public/js/getting-started.js```
 
-
 ## Code samples
 
-* ```getting-started.html``` - Mithril > Guide > Core Topics > Getting Started
-* ```routing.html``` - Mithril > Guide > Core Topics > Routing
-* ```components-nesting.html``` - Mithril > Guide > Core Topics > Components > Nesting components
+### Mithril > Guide > Core Topics 
+
+* ```getting-started.html``` - Getting Started
+* ```routing.html``` - Routing
+* ```components-nesting.html``` - Components > Nesting components
 
 
-## Components, patterns and sample code for mithril
+## Components, patterns and sample code for Mithril.js
 
-See [mithril-components] (https://github.com/eddyystop/mithril-components)
+* [Community projects and snippets] 
+(https://github.com/lhorie/mithril.js/wiki/Community-Projects-and-Snippets) 
+* [mithril-components] (https://github.com/eddyystop/mithril-components)
 
 ## License
 Copyright (c) 2014 John Szwaronek (<johnsz9999@gmail.com>) and others.
