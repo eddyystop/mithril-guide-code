@@ -27,7 +27,16 @@ app.use(express.errorHandler());
  * Application routes.
  */
 
-//app.get('/', homeController.index);
+app.get('/user', function (req, res) {
+  console.log('route /user');
+  res.send([
+    { id: 1, name: 'John' },
+    { id: 2, name: 'Mary' },
+    { id: 3, name: 'Nick' },
+    { id: 4, name: 'Stephane' },
+    { id: 5, name: 'Jessica' }
+  ]);
+});
 
 /**
  * Start Express server.

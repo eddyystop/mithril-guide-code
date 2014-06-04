@@ -2,6 +2,8 @@
 
 Working code examples from 
 [mithril.js] (https://github.com/lhorie/mithril.js) Guide and other docs.
+You can see how things actually work, play around with them, 
+and try out new things.
 
 ## Installation
 
@@ -34,9 +36,12 @@ from the repo's directory.
 * ```getting-started.html``` - Getting Started
 * ```routing.html``` - Routing
 * ```components-nesting.html``` - Components > Nesting components
+* ```services-basic.html``` - Web Services > Basic usage
+* ```services-process-data.html``` - Web Services > Processing web service data
+* ```services-errors.html``` - Web Services > Binding errors
 
 
-## Components, patterns and sample code for Mithril.js
+## More components, patterns and sample code
 
 * [Community projects and snippets] 
 (https://github.com/lhorie/mithril.js/wiki/Community-Projects-and-Snippets) 
