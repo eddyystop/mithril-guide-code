@@ -41,7 +41,7 @@
 
     return m.request({ method: "GET", url: url, extract: nonJsonErrors })
       // note: its preferable to do error handling in the controller as that leads to less code
-      .then(filterList, handleError);
+      .then(filterList, logError);
   };
 
   // app =======================================================================
@@ -89,8 +89,8 @@
     return list.filter(function(user) {return user.id % 2 == 0});
   }
 
-  function handleError (data) {
-    console.log('handleError. typeof data=', typeof data, 'data=', data);
+  function logError (data) {
+    console.log('logError. typeof data=', typeof data, 'data=', data);
   }
 
 }(m));

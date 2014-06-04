@@ -37,8 +37,9 @@ from the repo's directory.
 * ```routing.html``` - Routing
 * ```components-nesting.html``` - Components > Nesting components
 * ```services-basic.html``` - Web Services > Basic usage
-* ```services-process-data.html``` - Web Services > Processing web service data
-* ```services-errors.html``` - Web Services > Binding errors
+* ```services-process-data.html``` - Web Services > Basic Usage > Processing web service data
+* ```services-errors.html``` - Web Services > Basic Usage > Binding errors, plus Web Services > Queuing Operations
+* ```services-casting.html``` - Web Services > Casting the Response Data to a Class
 
 
 ## More components, patterns and sample code
