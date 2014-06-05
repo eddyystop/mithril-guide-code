@@ -42,13 +42,6 @@ from the repo's directory.
 * ```services-unwrapping.html``` - Web Services > Unwrapping Response Data
 * ```components-nesting.html``` - Components > Nesting components
 
-## Patterns
-
-### Web Services
-
-* ```patterns/service-error-handling.js``` - handle web-server and app errors
-
-
 ## More components, patterns and sample code
 
 * [Community projects and snippets] 
