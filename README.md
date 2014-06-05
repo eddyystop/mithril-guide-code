@@ -35,11 +35,18 @@ from the repo's directory.
 
 * ```getting-started.html``` - Getting Started
 * ```routing.html``` - Routing
-* ```components-nesting.html``` - Components > Nesting components
 * ```services-basic.html``` - Web Services > Basic usage
 * ```services-process-data.html``` - Web Services > Basic Usage > Processing web service data
 * ```services-errors.html``` - Web Services > Basic Usage > Binding errors, plus Web Services > Queuing Operations
 * ```services-casting.html``` - Web Services > Casting the Response Data to a Class
+* ```services-unwrapping.html``` - Web Services > Unwrapping Response Data
+* ```components-nesting.html``` - Components > Nesting components
+
+## Patterns
+
+### Web Services
+
+* ```patterns/service-error-handling.js``` - handle web-server and app errors
 
 
 ## More components, patterns and sample code

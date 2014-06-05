@@ -38,6 +38,26 @@ app.get('/user', function (req, res) {
   ]);
 });
 
+app.get('/userok', function (req, res) {
+  console.log('route /userok');
+  res.json({
+    data: [
+      { id: 1, name: 'John' },
+      { id: 2, name: 'Mary' },
+      { id: 3, name: 'Nick' },
+      { id: 4, name: 'Stephane' },
+      { id: 5, name: 'Jessica' }
+    ]
+  });
+});
+
+app.get('/userbad', function (req, res) {
+  console.log('route /userbad');
+  res.json(403, {
+    error: 'You can\'t touch this.'
+  });
+});
+
 /**
  * Start Express server.
  */
