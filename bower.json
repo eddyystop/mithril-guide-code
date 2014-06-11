@@ -1,0 +1,25 @@
+{
+  "name": "mithril-guide-code",
+  "description": "Working code examples from Mithril Guide and other docs. You can see how things actually work, play around with them, and try out new things.",
+  "homepage": "https://github.com/eddyystop/mithril-guide-code",
+  "main": "app.js",
+  "version": "0.1.0",
+  "dependencies" : {
+    "jQuery": "1.10.0"
+  },
+  "keywords": [
+    "mithril",
+    "framework"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT",
+  "authors": [
+    "JohnSz <johnsz9999@gmail.com>"
+  ]
+}

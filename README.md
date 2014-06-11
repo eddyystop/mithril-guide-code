@@ -42,6 +42,10 @@ from the repo's directory.
 * ```services-unwrapping.html``` - Web Services > Unwrapping Response Data
 * ```components-nesting.html``` - Components > Nesting components
 
+### Mithril > Guide > Advanced Topics 
+
+* ```integrating-with-other-libraries.html``` - Integrating with Other Libraries > Libraries
+
 ## More components, patterns and sample code
 
 * [Community projects and snippets] 
